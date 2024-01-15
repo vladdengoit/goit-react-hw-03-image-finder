@@ -41,7 +41,7 @@ this.setState({imagesList:[],page:1, showButton: false})
       imagesList:[...prevState.imagesList,...res.data.hits],
       showButton: page < Math.ceil(totalHits/12)
     })); 
-    console.log(Math.ceil(totalHits/12));
+  
     } catch (error) {
    
     this.setState({error:error.message});
