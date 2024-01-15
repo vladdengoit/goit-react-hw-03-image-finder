@@ -77,7 +77,8 @@ componentDidUpdate(_, prevState){
 
   showBigImage=(el)=>{
     this.setState({
-      modalShow:!this.state.modalShow ,bigImage:el.largeImageURL,
+      modalShow:!this.state.modalShow ,
+      bigImage:el.largeImageURL,
  })
     
 
